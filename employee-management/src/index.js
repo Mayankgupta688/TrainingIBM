@@ -1,7 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom";
 
-import WorkingWithContext from "./sessionFour/WorkingWithContext";
+import IndexComponent from "./sessionFive/IndexComponent";
 
-ReactDOM.render(<><WorkingWithContext /></>, 
+ReactDOM.render(<IndexComponent />, 
     document.getElementById("root"))

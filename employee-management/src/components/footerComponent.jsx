@@ -2,10 +2,10 @@ import "./appData.css";
 
 import React from "react";
 
-export default function FooterComponent() {
+export default function FooterComponent(props) {
     return (
         <div>
-            <h5>This is Footer</h5>
+            <h5>{props.name}</h5>
         </div>
     )
 }
